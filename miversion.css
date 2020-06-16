@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    Font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+#hola{
+    background:hsl(256, 26%, 20%);
+    background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color:white;
+}
+.titulos{
+    font-family: 'DM Serif Display', serif;
+    line-height: 1;
+}
+
+.jumbo{
+    background: hsl(256, 26%, 20%);
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top:90px;
+    background-image: url(images/bg-pattern-intro-right-desktop.svg);
+    background-position: right;
+}
+
+.nav-Link{
+    color:#000;
+}
+
+.lineaabajo:hover{
+    text-decoration: underline;
+}
+
+
+.blanco{
+    color:white;
+}
+
+.botonhover1:hover{
+    background:hsl(270, 9%, 17%);
+    color:white;
+}
+
+.botonhover2:hover{
+    background:white;
+    color:hsl(256, 26%, 20%);
+}
+
+.fino{
+    font-size: .8rem;
+    font-weight: 400;
+    color: rgba(240, 239, 239, 0.8);
+    line-height: 2;
+}
+
+.pasaragris{
+    color:gray;
+    font-size: .8rem;
+}
+
+.jumbotron p{
+    font-size: .7rem;
+
+}
+hr{
+    width:100px;
+    border:.3px solid gray;
+}
+img{
+    width: 100%;
+}
+.margen{
+    margin-bottom: 300px;
+}
+
+.margenfijo{
+    margin-top: 50px;
+}
+
+.iconos{
+    width: 25%;
+}
+
+@media (max-width:1199px){
+    .margen{
+        margin-bottom:250px ;
+    }
+}
+
+@media (max-width:991px){
+    .margen{
+        margin-bottom:100px ;
+    }
+}
